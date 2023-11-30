@@ -1,0 +1,42 @@
+html, body {
+    height: 100%
+  }
+  
+  body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  svg {
+    background-color: rgb(227, 225, 222);
+    box-shadow: 0px 3px 15px rgba(red, green, blue, alpha);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .bar {
+    background-color: blue;
+    border-color: blue;
+    fill: blue;
+  }
+  
+  .bar:hover {
+    fill: indigo;
+  }
+  
+  g {
+    color: rgb(18, 17, 14);
+  }
+  
+  #tooltip {
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 25px;
+  }
+  
+  #title {
+    font-size: 30px;
+    fill: darkslateblue;
+  } 
